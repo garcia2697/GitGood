@@ -4,10 +4,27 @@ h1 {
 h2 {
     padding: 2rem;
 }
-
 a {
     text-decoration: none;
 }
 a:hover {
     color:grey;
+}
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.single-vidoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtubers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
