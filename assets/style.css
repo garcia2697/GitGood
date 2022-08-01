@@ -3,21 +3,33 @@
     padding: 0;
     position: relative;
     box-sizing: border-box;
+};
+
+#bootstrap-overrides h1 { /* 100+1=101 priority score, yay! */
+    line-height: 1;
+    color: inherit;
+  
 }
 
-h1 {
-    color: white;
-}
+
+
 h2 {
     padding: 2rem;
+};
+
+li{
+    text-decoration: none;
+    
 }
 
 a {
     text-decoration: none;
+    color: black;
+    
 }
-a:hover {
+/* a:hover {
     color:grey;
-}
+} */
 
 .single-vidoes{
     display: flex;
@@ -30,3 +42,4 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
+
